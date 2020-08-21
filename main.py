@@ -8,8 +8,7 @@ from telethon.tl.types import (Channel, User)
 from telethon import TelegramClient
 
 # Remember to use your own values from my.telegram.org!
-api_id = 653921
-api_hash = 'ff362f2e52c7ddafac3e88aec6a80db8'
+
 client: client = TelegramClient('session', api_id, api_hash)
 
 
